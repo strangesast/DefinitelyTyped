@@ -312,9 +312,7 @@ interface PDFJSUtilStatic {
   normalizeRect(rect:number[]): number[];
 }
 
-export const PDFJS: PDFJSStatic;
-
-interface PDFJSStatic {
+export default interface PDFJSStatic {
   /**
    * The maximum allowed image size in total pixels e.g. width * height.  Images above this value will not be drawn.  Use -1 for no limit.
    **/
